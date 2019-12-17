@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>631118af-4a7a-4bf9-9afe-4af3ef39eb52</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LC_3Assembler.py</StartupFile>
+    <StartupFile>LC-3Assembler.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="LC_3Assembler.py" />
+    <Compile Include="loadFile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LC-3Assembler.py" />
+    <Compile Include="helper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utility.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="parser.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
