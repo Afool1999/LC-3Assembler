@@ -18,4 +18,4 @@ optional arguments:
   --out_type {b,x} [{b,x} ...], -ot {b,x} [{b,x} ...]
                         Binary[b] or Hex[x] type.
 ```
-Note that `--in_file` must be specified, while others don't nedd to be entered explicitly.
+Note that `--in_file` must be specified, while others don't need to be entered explicitly.
