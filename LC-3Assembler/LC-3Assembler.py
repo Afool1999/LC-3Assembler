@@ -1,4 +1,4 @@
-from parser import args
+from argparser import args
 from loadFile import openFile
 
 class func:
